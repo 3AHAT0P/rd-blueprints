@@ -48,7 +48,7 @@
     "ember-cli-test-loader": "^1.1.0",
     "ember-cli-valid-component-name": "^1.0.0",
     "ember-router-generator": "^1.2.2",
-    "fs-extra": "^0.30.0",
+    "fs-extra": "^0.30.0"
   },
   "keywords": [
     "ember-addon",
