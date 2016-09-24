@@ -1,7 +1,7 @@
 {
   "name": "rd-blueprints",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Blueprints for support structure contexts and autonomous components",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://github.com/3AHAT0P/rd-blueprints",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "i.a.kostyakov@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -49,7 +49,11 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "rd-component",
+    "context-structure",
+    "blueprint",
+    "rd-blueprint"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
