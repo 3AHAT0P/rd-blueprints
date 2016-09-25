@@ -1,6 +1,6 @@
 {
   "name": "rd-blueprints",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Blueprints for support structure contexts and autonomous components",
   "directories": {
     "doc": "doc",
@@ -58,9 +58,6 @@
     "blueprint",
     "rd-blueprint"
   ],
-  "dependencies": {
-    "ember-cli-babel": "^5.1.6"
-  },
   "ember-addon": {
     "configPath": "tests/dummy/config"
   }
