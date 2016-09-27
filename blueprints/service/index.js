@@ -30,7 +30,7 @@ module.exports = {
     nameArr = options.entity.name.split('/')
     name = stringUtil.capitalize(stringUtil.camelize(nameArr.join('-')));
     serviceName = nameArr.join('-');
-    servicePath = './services'
+    servicePath = '../services'
 
     return {
       name: name,
