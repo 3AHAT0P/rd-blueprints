@@ -1,5 +1,10 @@
 var inflection  = require('inflection');
-var stringUtils = require('../../lib/utilities/string');
+var stringUtil;
+try {
+  stringUtil = require('ember-cli-string-utils');
+} catch (e) {
+  stringUtil = require('../../node_modules/ember-cli/node_modules/ember-cli-string-utils');
+}
 var EOL         = require('os').EOL;
 
 module.exports = {
