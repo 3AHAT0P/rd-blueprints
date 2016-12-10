@@ -1,8 +1,10 @@
-`import Ember from 'ember';`
+import Ember from 'ember'
 
-{ Controller } = Ember
+{
+  Controller
+} = Ember
 
 ContextController = Controller.extend
-  
 
-`export default ContextController;`
+
+export default ContextController

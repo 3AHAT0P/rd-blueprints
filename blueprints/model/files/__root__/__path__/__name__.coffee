@@ -1,6 +1,8 @@
-`import DS from 'ember-data'`
+import BaseModel from '../base-model'
+import attr from 'ember-data/attr'
+import { belongsTo, hasMany } from 'ember-data/relationships'
 
-<%= classifiedModuleName %>Model = DS.Model.extend
+<%= classifiedModuleName %>Model = BaseModel.extend
   <%= attrs %>
 
-`export default <%= classifiedModuleName %>Model`
+export default <%= classifiedModuleName %>Model

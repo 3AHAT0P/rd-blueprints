@@ -1,6 +1,6 @@
-# Takes two parameters: container and application
+# Takes one parameter: appInstance
 initialize = () ->
-  # application.register 'route', 'foo', 'service:foo'
+  # appInstance.inject 'route', 'foo', 'service:foo'
 
 <%= classifiedModuleName %>Initializer =
   name: '<%= dasherizedModuleName %>'

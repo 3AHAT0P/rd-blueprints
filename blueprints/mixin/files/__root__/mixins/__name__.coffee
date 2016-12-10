@@ -1,5 +1,9 @@
-`import Ember from 'ember'`
+import Ember from 'ember'
 
-<%= classifiedModuleName %>Mixin = Ember.Mixin.create()
+{
+  Mixin
+} = Ember
 
-`export default <%= classifiedModuleName %>Mixin`
+<%= classifiedModuleName %>Mixin = Mixin.create()
+
+export default <%= classifiedModuleName %>Mixin

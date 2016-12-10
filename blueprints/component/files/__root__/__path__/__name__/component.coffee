@@ -1,9 +1,11 @@
-`import Ember from 'ember';`
+import Ember from 'ember'
 
-{ Component } = Ember
+{
+  Component
+} = Ember
 <%= importTemplate %>
 <%= name %>Component = Component.extend
   classNameBindings: [":<%= componentName %>"]
   <%= contents %>
 
-`export default <%= name %>Component;`
+export default <%= name %>Component

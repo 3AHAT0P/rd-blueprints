@@ -1,10 +1,12 @@
-`import Ember from 'ember';`
+import Ember from 'ember'
 
-{ Route } = Ember
+{
+  Route
+} = Ember
 
 CoontextRoute = Route.extend
 
   model: (params, transition)->
     {}
 
-`export default Route;`
+export default Route
