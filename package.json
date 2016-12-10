@@ -1,6 +1,6 @@
 {
   "name": "rd-blueprints",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Blueprints for support structure contexts and autonomous components",
   "directories": {
     "doc": "doc",
