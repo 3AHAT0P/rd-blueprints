@@ -1,11 +1,7 @@
-import Ember from 'ember'
-
-{
-  Component
-} = Ember
+import RdBaseComponent from 'rd-blueprints/addon/rd-base/component'
 <%= importTemplate %>
-<%= name %>Component = Component.extend
-  classNameBindings: [":<%= componentName %>"]
+<%= name %>Component = RdBaseComponent.extend
+  componentName: '<%= componentName %>'
   <%= contents %>
 
 export default <%= name %>Component
