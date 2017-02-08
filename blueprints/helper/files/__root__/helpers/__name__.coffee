@@ -5,11 +5,7 @@ import Ember from 'ember'
 } = Ember
 
 # This function receives the params `params, hash`
-<%= camelizedModuleName %> = (params)->
+export <%= camelizedModuleName %> = (params)->
   return params
 
-<%= classifiedModuleName %>Helper = Helper.helper <%= camelizedModuleName %>
-
-export { <%= camelizedModuleName %> }
-
-export default <%= classifiedModuleName %>Helper
+export default <%= classifiedModuleName %>Helper = Helper.helper <%= camelizedModuleName %>

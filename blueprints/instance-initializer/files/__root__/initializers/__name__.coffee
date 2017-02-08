@@ -1,10 +1,7 @@
 # Takes one parameter: appInstance
-initialize = () ->
+export initialize = () ->
   # appInstance.inject 'route', 'foo', 'service:foo'
 
-<%= classifiedModuleName %>Initializer =
+export default <%= classifiedModuleName %>Initializer =
   name: '<%= dasherizedModuleName %>'
   initialize: initialize
-
-export {initialize}
-export default <%= classifiedModuleName %>Initializer
