@@ -6,7 +6,7 @@ const {
   computed
 } = Ember;
 
-RdBaseComponent = Component.extend({
+const RdBaseComponent = Component.extend({
   componentName: 'rd-base',
   mods: null,
   elements: null,
