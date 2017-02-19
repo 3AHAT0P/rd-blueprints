@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 const {
-  get
-  Component
+  get,
+  Component,
   computed
 } = Ember;
 
