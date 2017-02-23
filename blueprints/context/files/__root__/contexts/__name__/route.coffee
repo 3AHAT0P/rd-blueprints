@@ -4,9 +4,9 @@ import Ember from 'ember'
   Route
 } = Ember
 
-CoontextRoute = Route.extend
+ContextRoute = Route.extend
 
   model: (params, transition)->
     {}
 
-export default Route
+export default ContextRoute
